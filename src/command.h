@@ -1,0 +1,19 @@
+#ifndef COMMAND_H
+#define COMMAND_H
+
+enum class command_enum {
+    FORWARD,
+    HANDSHAKE,
+    NICK,
+    ACK,
+    NACK,
+    DISTRIBUTE_CLIENT_INFORMATION,
+    DISTRIBUTE_GROUP_INFORMATION,
+    STARTMULTICAST,
+    DECREASE,
+    NICKACK,
+    NICKNACK,
+    INVALID, 
+    SECRET 
+};
+#endif
